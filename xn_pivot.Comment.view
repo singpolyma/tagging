@@ -1,0 +1,7 @@
+<c:url var="urlPrefix" value="/" />
+
+<a href="${urlPrefix}view.php?id=${content.my.parentid}#${content.id}"><c:out value="${content.title}" /></a>
+<p><c:out value="${content.description}" /></p>
+Added on <fmt:formatDate value="${content.createdDate}"
+    pattern="yyyy-MM-dd"/> by <a href="${urlPrefix}?user=${content.user}"><c:out value="${content.user}"/></a>
+<br />

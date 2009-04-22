@@ -1,0 +1,65 @@
+<script type="text/javascript">
+//<![CDATA[
+function toggleitem(postid,linkid,newtxt) {
+   var whichpost = document.getElementById(postid);
+   if (whichpost.style.display != "block") {
+      whichpost.style.display = "block";
+   } else {
+      whichpost.style.display = "none";
+   }
+   if(linkid) {
+         var lnk = document.getElementById(linkid);
+         lnk.href = "javascript:toggleitem('"+postid+"','"+linkid+"','"+lnk.innerHTML+"');";
+         lnk.innerHTML = newtxt;
+   }
+}
+//]]>
+</script>
+
+<div style="float:right;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0154133532956780";
+google_ad_width = 120;
+google_ad_height = 60;
+google_ad_format = "120x60_as_rimg";
+google_cpa_choice = "CAAQ5ZaazgEaCFpxEHuGkQUbKIHD93M";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<div style="float:right;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0154133532956780";
+google_alternate_color = "FFFFFF";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text";
+google_ad_channel ="2542172029";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<h1><c:out value="${application}" /></h1>
+
+<div id="globalNav">
+   <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about.php">About</a></li>
+      <li><a href="/index.php/tag">Tags</a></li>
+<c:if test="${viewer}">
+      <li><a href="/addGroup.php">Add TagGroup</a></li>
+</c:if>
+<c:if test="${role == 'xn_owner'}">
+   <li class="mine"><a href="/contentManager.php">Content Manager</a></li>
+</c:if>
+   </ul> 
+</div>

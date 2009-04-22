@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#userHeader {
+    margin: 10px 20px 0px 20px;
+}
+
+#userHeader  #globalNav {
+ 	background: #ddd;
+	width: 100%;
+	float: left;
+	margin:0;
+	padding:0;
+}	
+
+#userHeader #globalNav ul {
+	font-family: arial, helvetica, sans-serif;
+	font-size: .85em;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+	
+#userHeader #globalNav ul li { 
+	display: inline; 
+}
+
+#userHeader #globalNav ul li a {
+	background: #555;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+	float: left;
+	padding: 2px 15px;
+}
+	
+#userHeader #globalNav ul li.mine a {
+	background: #c63;
+	}
+
+#userHeader #globalNav ul li a:active,
+#userHeader #globalNav ul li a:hover,
+#userHeader #globalNav ul li.mine a:active,
+#userHeader #globalNav ul li.mine a:hover  {
+	background: #06f;
+	color: #fff;
+}
+
+#userContent {
+    font: 70% Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 15px;
+}
+
+#userContent h2 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight:bold;
+	margin:0 0 5px 0;
+	padding:0;
+	}
+
+#userContent div,#userContent .pagetitle {
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+/*    background: #cde6c0;*/
+}
+
+#userContent h3 {
+    margin: 10px 20px 0 20px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12pt;
+    color: #333;
+}
+
+#userContent p,
+#userContent dl,
+#userContent ul,
+#userContent ol {
+    margin: 0 0 0.5em 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #666;
+}
+#userContent dt,
+#userContent dt a {
+    font-weight: bold !important;
+}
+#userContent dd {
+    margin: 0;
+}
+
+#userContent form {
+    margin: 2em 0;
+    padding: 12px 12px 8px 12px;
+    border: 1px solid #ccc;
+    background: url("http://group.ning.com/images/css/form.gif") repeat-x left top;
+    width: 455px;
+}
+#userContent form h3 {
+    height: auto;
+    margin-top: 0;
+    background: none;
+    font-weight: bold;
+    color: #c33;
+}
+#userContent form p.align-right {
+    margin: 0.2em 0;
+}
+#userContent fieldset {
+    margin: 1em 0 0.5em 0;
+    padding: 0 0 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+#userContent fieldset h4 {
+    padding: 0;
+    border: 0;
+}
+#userContent fieldset dl {
+    margin: 0;
+    padding: 0.5em 0;
+}
+#userContent fieldset dt {
+    float: left;
+    clear: left;
+    width: 180px;
+    margin: 0;
+    padding-bottom: 5px;
+    line-height: 1.4em;
+    padding-right: 5px;
+    text-align: right;
+    color: #666;
+}
+#userContent fieldset dd {
+    clear: right;
+    margin: 0;
+    padding: 0 0 5px 165px;
+    line-height: 1.4em;
+}
+#userContent fieldset dd.note {
+    margin-bottom: 0.8em;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#userContent p {
+    margin: 10px 20px 0 20px;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+}
+
+#userContent ul {
+    font: 16px Georgia, "Times New Roman", Times, serif;
+}
+
+#userContent label {
+   display:block;
+   float:left;
+   width:150px;
+}
+
+#userContent  #sidebar ul {
+	margin:0 0 20px 0;
+	padding:0;
+	}
+	
+#userContent  #sidebar ul li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#666;
+	}
+
+/* Link Styles
+----------------------------------------------- */
+
+#userContent a 				{ color: #06f; text-decoration: none; }
+#userContent a:link			{ color: #06f; text-decoration: none; }
+#userContent a:visited		{ color: #06f; text-decoration: none;}
+#userContent a:active		{ color: #fff; text-decoration: none; background-color:#06f; }
+#userContent a:hover		{ color: #fff; text-decoration: none; background-color:#06f; }
+#userContent img, #userContent a img {border-width: 0px;}
+
+
+#userContent .xnc_html_map a, #userContent a.tag		{ color: #939; text-decoration: none;}
+#userContent .xnc_html_map a:link, #userContent a.tag:link	{ color: #939; text-decoration: none;}
+#userContent .xnc_html_map a:visited, #userContent a.tag:visited { color: #939; text-decoration: none;}
+#userContent  .xnc_html_map a:active, #userContent a.tag:active { color: #fff; text-decoration: none; background-color:#939;}
+#userContent .xnc_html_map a:hover, #userContent a.tag:hover { color: #fff; text-decoration: none; background-color:#939;}
+
+#userContent a.user				{ color: #393; text-decoration: none;}
+#userContent a.user:link		{ color: #393; text-decoration: none;}
+#userContent a.user:visited		{ color: #393; text-decoration: none;}
+#userContent a.user:active		{ color: #fff; text-decoration: none; background-color:#393;}
+#userContent a.user:hover		{ color: #fff; text-decoration: none; background-color:#393;}
